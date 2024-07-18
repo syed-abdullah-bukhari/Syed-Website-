@@ -11,7 +11,7 @@ export default function CodeBase () {
     }
 
     return(
-        <div>
+        <div className='Container glass'>
             <h3>Name : {name}</h3>
             <button onClick={UpdateName}>Set Name:  </button>
         </div>
