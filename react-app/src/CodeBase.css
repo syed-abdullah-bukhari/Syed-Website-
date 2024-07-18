@@ -12,5 +12,9 @@ body {
 
 .glass {
     background: linear-gradient();
-
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgb(147, 101, 194);
+    box-shadow: 0 8px 32px rgb(192, 154, 154);
 }
